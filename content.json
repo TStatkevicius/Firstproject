@@ -1,0 +1,273 @@
+{
+    "type": "div",
+    "className": "container",
+    "content": [
+        {
+            "type": "div",
+            "className": "navbar",
+            "id": "nav",
+            "content": [
+                {
+                    "type": "li",
+                    "content": [
+                        {
+                            "type": "a",
+                            "href": "#",
+                            "innerHTML": "Home",
+                            "id": "link",
+                            "onclick":"push"
+                        }
+                    ]
+                },
+                {
+                    "type": "li",
+                    "content": [
+                        {
+                            "type": "a",
+                            "href": "#",
+                            "innerHTML": "Products",
+                            "id": "link1",
+                            "onclick":"push1"
+                        }
+                    ]
+                },
+                {
+                    "type": "li",
+                    "content": [
+                        {
+                            "type": "a",
+                            "href": "#",
+                            "innerHTML": "Templates",
+                            "id": "link2",
+                            "onclick":"push2"
+                        }
+                    ]
+                },
+                {
+                    "type": "li",
+                    "content": [
+                        {
+                            "type": "a",
+                            "href": "#",
+                            "innerHTML": "Pricing",
+                            "id": "link3",
+                            "onclick": "push3"
+                    
+                        }
+                    ]
+                },
+                {
+    
+                    "type": "div"
+                },
+                {
+                    "type": "button",
+                    "className": "btns",
+                    "innerHTML": "Sign In"
+                },
+                {
+                    "type": "button",
+                    "className": "btn",
+                    "innerHTML": "Sign Up"
+                }
+            ]
+        },
+        {
+            "type": "img",
+            "src": "./logo.png",
+            "alt": "logo"
+        },
+        {
+            "type": "nav",
+            "className": "mob",
+            "content": [
+                {
+                    "type": "div",
+                    "className": "menu-button",
+                    "innerHTML": "MENU",
+                    "onclick":"spust"
+                },
+                {
+                    "type": "div",
+                    "className": "mobile-menu",
+                    "id": "mobile-container",
+                    "content": [
+                        {
+                            "type": "p",
+                            "className": "mobile",
+                            "content": [
+                                {
+                                    "type": "a",
+                                    "href": "#",
+                                    "id": "linkm",
+                                    "innerHTML": "Home",
+                                    "onclick":"mob"
+
+                                }
+                            ]
+                        },
+                        {
+                            "type": "p",
+                            "className": "mobile",
+                            "content": [
+                                {
+                                    "type": "a",
+                                    "href": "#",
+                                    "id": "linkm1",
+                                    "innerHTML": "Products",
+                                    "onclick":"mob1"
+                                }
+                            ]
+                        },
+                        {
+                            "type": "p",
+                            "className": "mobile",
+                            "content": [
+                                {
+                                    "type": "a",
+                                    "href": "#",
+                                    "id": "linkm2",
+                                    "innerHTML": "Templates",
+                                    "onclick":"mob2"
+                                },
+                                {
+                                    "type": "p",
+                                    "className": "mobile",
+                                    "content": [
+                                        {
+                                            "type": "a",
+                                            "href": "#",
+                                            "id": "linkm3",
+                                            "innerHTML": "Pricing",
+                                            "onclick":"mob3"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "type": "button",
+                                    "className": "mobileb",
+                                    "innerHTML": "Sign in"
+                                },
+                                {
+                                    "type": "button",
+                                    "className": "mobilebt",
+                                    "innerHTML": "Sign up"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "type": "div",
+            "className": "sect",
+            "content": [
+                {
+                    "type": "h1",
+                    "className": "h1",
+                    "id":"htext",
+                    "innerHTML": "Create Stuning Visual Media"
+                },
+                {
+                    "type": "h1",
+                    "className": "h1",
+                    "id":"htext1",
+                    "innerHTML": "Products"
+                },
+                {
+                    "type": "h1",
+                    "className": "h1",
+                    "id":"htext2",
+                    "innerHTML": "Templates"
+                },
+                {
+                    "type": "h1",
+                    "className": "h1",
+                    "id":"htext3",
+                    "innerHTML": "Pricing"
+                },
+                {
+                    "type": "div",
+                    "className": "sect",
+                    "content": [
+                        {
+                            "type": "p",
+                            "id": "chang",
+                            "className":"text",
+                            "innerHTML": "Create Stuning Visual MediaSuper simple tool to create trendy videos and pictures for your ads, social medias, blogs and websites. Make your project stand out!"
+                        },
+                        {
+                            "type": "p",
+                            "id": "chang1",
+                            "className":"text1",
+                            "innerHTML": "Neither the length of a JavaScript array nor the types of its elements are fixed. "
+                        },
+                        {
+                            "type": "p",
+                            "id": "chang2",
+                            "className":"text2",
+                            "innerHTML": "The result of a match between a regular expression and a string can create a JavaScript array. "
+                        },
+                        {
+                            "type": "p",
+                            "id": "chang3",
+                            "className":"text3",
+                            "innerHTML": "These methods do not modify the array and return some representation of the array. "
+                        },
+                        {
+                            "type": "button",
+                            "className": "create",
+                            "innerHTML": "Create Design"
+                        }
+                    ]
+                },
+                {
+                    "type": "div",
+                    "id": "change",
+                    "content": [
+                        {
+                            "type": "button",
+                            "className": "circle1",
+                            "onclick": "spust1"
+
+                        }
+                    ]
+                },
+                {
+                    "type": "div",
+                    "id": "change1",
+                    "content": [
+                        {
+                            "type": "button",
+                            "className": "circle2",
+                            "onclick": "spust2"
+                        }
+                    ]
+                },
+                {
+                    "type": "div",
+                    "id": "change2",
+                    "content": [
+                        {
+                            "type": "button",
+                            "className": "circle3",
+                            "onclick": "spust3"
+                        }
+                    ]
+                },
+                {
+                    "type": "div",
+                    "id": "change3",
+                    "content": [
+                        {
+                            "type": "button",
+                            "className": "circle4",
+                            "onclick": "spust4"
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}
