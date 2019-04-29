@@ -75,7 +75,9 @@
         {
             "type": "img",
             "src": "./logo.png",
-            "alt": "logo"
+            "alt": "logo",
+            "id": "imgback",
+            "onclick":"back"
         },
         {
             "type": "nav",
@@ -161,7 +163,7 @@
         },
         {
             "type": "div",
-            "className": "sect",
+            "className": "sect1",
             "content": [
                 {
                     "type": "h1",

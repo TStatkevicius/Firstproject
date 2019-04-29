@@ -35,9 +35,6 @@ function initJSON() {
 function recurseJSON(data, container){
     for (let el of data){
         let newContainer = getElement(el);
-        // newContainer.className = 'container'
-        // document.body.appendChild(getElement(el),data.content);
-       
         container.appendChild(newContainer);
         catchEventListener(el);
         ;
@@ -52,7 +49,7 @@ function recurseJSON(data, container){
 function loadJSON(callback) {
     var req = new XMLHttpRequest();
     req.overrideMimeType('application/json');
-    req.open('GET', 'https://api.myjson.com/bins/zac2s', true); 
+    req.open('GET', 'https://api.myjson.com/bins/1gpb54', true); 
     req.onreadystatechange = 
     function() {
         if (req.readyState == 4 && req.status == "200") {
@@ -171,7 +168,11 @@ function catchEventListener(el){
            document.getElementById('htext3').style.display = 'block';
         })
     }
-  
+if(el.onclick === 'back'){
+    document.getElementById('imgback').addEventListener('click', function(){
+        window.location = './index.html';
+    })
+}
 }
 
 let isMenu = false;
